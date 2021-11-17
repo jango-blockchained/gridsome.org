@@ -1,18 +1,10 @@
-# gridsome.org
+# forx.cryptolinx.net
 
-This is the Git repository for gridsome.org. Feel free to contribute 🥳
-
-## Linting Markdown
-
-We use [markdownlint-cli](https://www.npmjs.com/package/markdownlint-cli) to enforce style consistency rules on the documentation. The linter runs automatically on every push and pull request via [GitHub Actions](https://docs.github.com/en/actions).
-
-You can check your changes for linter errors by running:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/979e046f-2e11-4d19-905e-94dc6ad7edfa/deploy-status)](https://app.netlify.com/sites/forx/deploys)
 
 ```shell
 yarn markdown:lint
 ```
-
-The linter can automatically fix certain classes of failure. To accept these fixes, run:
 
 ```shell
 yarn markdown:fix
